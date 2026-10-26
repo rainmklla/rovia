@@ -1,0 +1,54 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.carousel__track {
+    position: relative;
+    width: 260px;
+    height: 460px;
+    flex-shrink: 0;
+}
+
+.carousel__slot {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 260px;
+    touch-action: pan-y;
+    cursor: pointer;
+}
+
+.carousel__slot img {
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+.carousel__slot .card {
+    height: 100%;
+}
+
+.carousel__slot--center {
+    cursor: grab;
+}
+
+.carousel__arrow {
+    flex-shrink: 0;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    border: 1px solid var(--line-on-ink);
+    background: transparent;
+    color: var(--paper-hi);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.carousel__arrow:hover {
+    border-color: var(--gold-soft);
+    color: var(--gold-soft);
+    transform: translateY(-2px);
+}

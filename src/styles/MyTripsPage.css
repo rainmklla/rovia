@@ -1,0 +1,35 @@
+.trips {
+  padding-block: 5rem 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.trips__card {
+  max-width: 46ch;
+  text-align: center;
+  border: 1px dashed var(--line-on-ink);
+  border-radius: 8px;
+  padding: 3rem 2.5rem;
+}
+
+.trips__icon {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.trips__card .eyebrow {
+  color: var(--gold-soft);
+  margin-bottom: 0.6rem;
+}
+
+.trips__card h1 {
+  font-size: 1.9rem;
+  color: var(--paper-hi);
+  margin-bottom: 0.9rem;
+}
+
+.trips__copy {
+  color: rgba(247, 242, 228, 0.75);
+  line-height: 1.6;
+  margin-bottom: 1.8rem;
+}

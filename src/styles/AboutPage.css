@@ -1,0 +1,57 @@
+.about {
+  padding-block: 3.5rem 5rem;
+  max-width: 72ch;
+}
+
+.about__head .eyebrow {
+  color: var(--gold-soft);
+  margin-bottom: 0.5rem;
+}
+
+.about__head h1 {
+  font-size: 2.6rem;
+  color: var(--paper-hi);
+  margin-bottom: 1.4rem;
+}
+
+.about__lede {
+  line-height: 1.75;
+  color: rgba(247, 242, 228, 0.82);
+  margin-bottom: 2.4rem;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.8rem;
+  border-top: 1px dashed var(--line-on-ink);
+  padding-top: 1.8rem;
+}
+
+.about__block .eyebrow {
+  color: var(--gold-soft);
+  margin-bottom: 0.7rem;
+}
+
+.about__block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: rgba(247, 242, 228, 0.85);
+}
+
+.about__name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--paper-hi);
+}
+
+.about__section {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: rgba(247, 242, 228, 0.7);
+  margin-top: 0.2rem;
+}
